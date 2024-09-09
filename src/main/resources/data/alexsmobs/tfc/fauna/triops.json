@@ -1,0 +1,11 @@
+{
+    "chance": 1,
+    "distance_below_sea_level": 0,
+    "climate": {
+        "min_temperature": 5,
+        "max_temperature": 30,
+        "min_rainfall": 50,
+        "max_rainfall": 125,
+        "max_forest": "sparse"
+    }
+}
