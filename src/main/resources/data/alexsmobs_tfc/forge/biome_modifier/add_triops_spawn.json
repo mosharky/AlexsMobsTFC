@@ -1,0 +1,14 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:lake",
+        "tfc:lowlands",
+        "tfc:volcanic_mountain_lake"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 4,
+        "type": "alexsmobs:triops"
+    }
+}

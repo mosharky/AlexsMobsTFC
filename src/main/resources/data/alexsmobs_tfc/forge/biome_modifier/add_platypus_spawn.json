@@ -1,0 +1,14 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:lake",
+        "tfc:lowlands",
+        "tfc:river"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2,
+        "type": "alexsmobs:platypus"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:badlands",
+        "tfc:canyons",
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:inverted_badlands",
+        "tfc:lake",
+        "tfc:low_canyons",
+        "tfc:lowlands",
+        "tfc:mountains",
+        "tfc:oceanic_mountains",
+        "tfc:old_mountains",
+        "tfc:plains",
+        "tfc:plateau",
+        "tfc:river",
+        "tfc:rolling_hills",
+        "tfc:salt_marsh",
+        "tfc:volcanic_mountains",
+        "tfc:volcanic_oceanic_mountains"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3,
+        "type": "alexsmobs:raccoon"
+    }
+}

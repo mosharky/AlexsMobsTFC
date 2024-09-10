@@ -1,0 +1,14 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:ocean_reef",
+        "tfc:shore",
+        "tfc:tidal_flats"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "type": "alexsmobs:mantis_shrimp"
+    }
+}

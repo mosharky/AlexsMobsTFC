@@ -1,0 +1,13 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:lowlands",
+        "tfc:salt_marsh"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "type": "alexsmobs:rain_frog"
+    }
+}

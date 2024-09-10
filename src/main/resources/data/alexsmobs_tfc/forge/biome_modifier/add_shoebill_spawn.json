@@ -1,0 +1,16 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:lake",
+        "tfc:low_canyons",
+        "tfc:lowlands",
+        "tfc:river",
+        "tfc:salt_marsh"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 4,
+        "type": "alexsmobs:shoebill"
+    }
+}

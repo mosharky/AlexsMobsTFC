@@ -1,0 +1,20 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:lake",
+        "tfc:lowlands",
+        "tfc:mountain_lake",
+        "tfc:oceanic_mountain_lake",
+        "tfc:old_mountain_lake",
+        "tfc:plateau_lake",
+        "tfc:river",
+        "tfc:volcanic_mountain_lake",
+        "tfc:volcanic_oceanic_mountain_lake"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3,
+        "type": "alexsmobs:catfish"
+    }
+}

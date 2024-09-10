@@ -1,0 +1,13 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:deep_ocean",
+        "tfc:deep_ocean_trench"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "type": "alexsmobs:blobfish"
+    }
+}

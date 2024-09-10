@@ -1,0 +1,17 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:deep_ocean",
+        "tfc:deep_ocean_trench",
+        "tfc:ocean",
+        "tfc:ocean_reef",
+        "tfc:shore",
+        "tfc:tidal_flats"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 6,
+        "type": "alexsmobs:flying_fish"
+    }
+}

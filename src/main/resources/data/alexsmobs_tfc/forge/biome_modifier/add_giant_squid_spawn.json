@@ -1,0 +1,15 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:deep_ocean",
+        "tfc:deep_ocean_trench",
+        "tfc:ocean",
+        "tfc:ocean_reef"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "type": "alexsmobs:giant_squid"
+    }
+}

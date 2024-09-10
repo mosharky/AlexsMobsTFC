@@ -1,0 +1,14 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:deep_ocean",
+        "tfc:deep_ocean_trench",
+        "tfc:ocean"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1,
+        "type": "alexsmobs:cachalot_whale"
+    }
+}

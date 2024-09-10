@@ -1,0 +1,23 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:badlands",
+        "tfc:canyons",
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:inverted_badlands",
+        "tfc:mountains",
+        "tfc:oceanic_mountains",
+        "tfc:old_mountains",
+        "tfc:plateau",
+        "tfc:rolling_hills",
+        "tfc:volcanic_mountains",
+        "tfc:volcanic_oceanic_mountains"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 6,
+        "type": "alexsmobs:gelada_monkey"
+    }
+}

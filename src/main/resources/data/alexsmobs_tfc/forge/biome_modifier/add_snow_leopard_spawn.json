@@ -1,0 +1,17 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:mountains",
+        "tfc:oceanic_mountains",
+        "tfc:old_mountains",
+        "tfc:rolling_hills"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2,
+        "type": "alexsmobs:snow_leopard"
+    }
+}

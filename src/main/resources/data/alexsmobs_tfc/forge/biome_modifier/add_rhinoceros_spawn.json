@@ -1,0 +1,17 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:lake",
+        "tfc:low_canyons",
+        "tfc:lowlands",
+        "tfc:plains",
+        "tfc:river",
+        "tfc:salt_marsh"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 5,
+        "type": "alexsmobs:rhinoceros"
+    }
+}

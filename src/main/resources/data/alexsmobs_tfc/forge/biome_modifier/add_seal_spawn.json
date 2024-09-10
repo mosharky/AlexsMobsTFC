@@ -1,0 +1,13 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:shore",
+        "tfc:tidal_flats"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 4,
+        "maxCount": 8,
+        "type": "alexsmobs:seal"
+    }
+}

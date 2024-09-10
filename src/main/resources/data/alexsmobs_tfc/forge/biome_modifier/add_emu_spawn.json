@@ -1,0 +1,24 @@
+{
+    "type": "forge:add_spawns",
+    "biomes": [
+        "tfc:badlands",
+        "tfc:canyons",
+        "tfc:highlands",
+        "tfc:hills",
+        "tfc:inverted_badlands",
+        "tfc:lake",
+        "tfc:low_canyons",
+        "tfc:lowlands",
+        "tfc:plains",
+        "tfc:plateau",
+        "tfc:river",
+        "tfc:rolling_hills",
+        "tfc:salt_marsh"
+    ],
+    "spawners": {
+        "weight": 1,
+        "minCount": 3,
+        "maxCount": 6,
+        "type": "alexsmobs:emu"
+    }
+}
