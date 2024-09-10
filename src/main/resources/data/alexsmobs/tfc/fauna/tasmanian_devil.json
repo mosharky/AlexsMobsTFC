@@ -2,8 +2,9 @@
     "chance": 1,
     "climate": {
         "min_temperature": 5,
-        "max_temperature": 25,
-        "min_rainfall": 250,
+        "max_temperature": 20,
+        "min_rainfall": 125,
+        "max_rainfall": 200,
         "min_forest": "sparse"
     }
 }

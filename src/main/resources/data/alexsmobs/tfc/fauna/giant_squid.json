@@ -1,8 +1,7 @@
 {
-    "chance": 1,
+    "chance": 10,
     "distance_below_sea_level": 33,
     "climate": {
-        "min_temperature": 2,
         "max_temperature": 15
     }
 }

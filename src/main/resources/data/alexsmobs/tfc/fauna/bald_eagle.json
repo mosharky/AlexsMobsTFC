@@ -3,7 +3,7 @@
     "climate": {
         "min_temperature": -30,
         "max_temperature": 30,
-        "min_rainfall": 250,
+        "min_rainfall": 200,
         "max_rainfall": 375,
         "min_forest": "none",
         "max_forest": "edge"

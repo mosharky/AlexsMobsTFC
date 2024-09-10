@@ -1,7 +1,6 @@
 {
     "chance": 1,
     "climate": {
-        "min_temperature": -30,
         "max_temperature": 35,
         "min_rainfall": 100,
         "max_rainfall": 375

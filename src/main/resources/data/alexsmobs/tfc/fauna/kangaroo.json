@@ -5,7 +5,6 @@
         "max_temperature": 35,
         "min_rainfall": 125,
         "max_rainfall": 250,
-        "min_forest": "sparse",
         "max_forest": "edge"
     }
 }

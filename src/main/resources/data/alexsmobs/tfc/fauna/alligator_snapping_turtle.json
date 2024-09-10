@@ -4,6 +4,6 @@
     "climate": {
         "min_temperature": 10,
         "max_temperature": 30,
-        "min_rainfall": 250
+        "min_rainfall": 150
     }
 }

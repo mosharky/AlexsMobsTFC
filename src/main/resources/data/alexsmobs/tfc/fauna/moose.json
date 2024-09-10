@@ -1,11 +1,10 @@
 {
     "chance": 1,
     "climate": {
-        "min_temperature": -30,
-        "max_temperature": 25,
-        "min_rainfall": 300,
-        "max_rainfall": 375,
-        "min_forest": "sparse",
-        "max_forest": "normal"
+        "min_temperature": -20,
+        "max_temperature": 15,
+        "min_rainfall": 150,
+        "max_rainfall": 300,
+        "min_forest": "edge"
     }
 }
