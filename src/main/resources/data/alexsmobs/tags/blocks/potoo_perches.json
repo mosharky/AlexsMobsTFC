@@ -1,0 +1,7 @@
+{
+    "__comment": "replaced=true to prevent potoos from perching on leaves",
+    "replace": true,
+    "values": [
+        "#minecraft:logs"
+    ]
+}

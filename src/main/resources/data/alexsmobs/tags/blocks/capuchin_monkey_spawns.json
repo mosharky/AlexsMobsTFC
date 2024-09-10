@@ -1,0 +1,7 @@
+{
+    "__comment": "replaced=true to prevent spawning on leaves",
+    "replace": true,
+    "values": [
+        "#alexsmobs:am_spawns"
+    ]
+}

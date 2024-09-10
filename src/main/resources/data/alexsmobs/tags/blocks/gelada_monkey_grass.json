@@ -1,0 +1,29 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:plant/pampas_grass",
+        "tfc:plant/beachgrass",
+        "tfc:plant/bluegrass",
+        "tfc:plant/bromegrass",
+        "tfc:plant/fountain_grass",
+        "tfc:plant/manatee_grass",
+        "tfc:plant/orchard_grass",
+        "tfc:plant/ryegrass",
+        "tfc:plant/scutch_grass",
+        "tfc:plant/star_grass",
+        "tfc:plant/timothy_grass",
+        "tfc:plant/raddia_grass",
+        "tfc:plant/cordgrass",
+        "tfc:plant/eel_grass",
+        "tfc:plant/switchgrass",
+        "tfc:plant/tall_fescue_grass",
+        "tfc:plant/turtle_grass",
+        "tfc:plant/dead_bush",
+        "tfc:plant/aythyrium_fern",
+        "tfc:plant/king_fern",
+        "tfc:plant/lady_fern",
+        "tfc:plant/licorice_fern",
+        "tfc:plant/ostrich_fern",
+        "tfc:plant/sword_fern"
+    ]
+}

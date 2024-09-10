@@ -1,0 +1,6 @@
+{
+    "replace": false,
+    "values": [
+        { "id": "firmalife:beehive", "required": false }
+    ]
+}

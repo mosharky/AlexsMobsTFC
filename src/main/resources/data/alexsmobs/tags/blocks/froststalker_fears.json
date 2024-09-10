@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:firepit",
+        "tfc:grill",
+        "tfc:pot",
+        "tfc:bloomery",
+        "tfc:charcoal_forge",
+        "tfc:crucible",
+        "#tfc:lamps"
+    ]
+}
