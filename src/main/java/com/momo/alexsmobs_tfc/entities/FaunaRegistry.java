@@ -22,6 +22,7 @@ import java.util.function.Supplier;
 // https://github.com/TerraFirmaCraft/TerraFirmaCraft/blob/1.20/src/main/java/net/dries007/tfc/common/entities/Faunas.java
 public class FaunaRegistry
 {
+    // TODO: these all still use Alex's Mobs' registry, not ours
     // Land animals
     public static final FaunaType<EntityAnteater> ANTEATER = registerAnimal(AMEntityRegistry.ANTEATER);
     public static final FaunaType<EntityBaldEagle> BALD_EAGLE = registerAnimal(AMEntityRegistry.BALD_EAGLE);
@@ -154,7 +155,7 @@ public class FaunaRegistry
 
     private static <E extends Mob> FaunaType<E> register(RegistryObject<EntityType<E>> entity, SpawnPlacements.Type spawnPlacement) {
         Supplier<Fauna> fauna = Fauna.MANAGER.register(entity.getId());
-        return new FaunaType(entity, fauna, spawnPlacement, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES);
+        return new FaunaType<>(entity, fauna, spawnPlacement, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES);
     }
 
 
