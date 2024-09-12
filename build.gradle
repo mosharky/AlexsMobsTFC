@@ -156,6 +156,8 @@ dependencies {
 
     // JEI
     runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}")
+    // Jade
+    runtimeOnly fg.deobf("maven.modrinth:jade:${jade_version}+forge")
     // TFC
     implementation fg.deobf("maven.modrinth:terrafirmacraft:${tfc_version}")
     // Patchouli
