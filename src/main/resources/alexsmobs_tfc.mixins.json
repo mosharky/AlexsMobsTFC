@@ -6,6 +6,7 @@
     "mixins": [
         "compat.AMTFCEntityTooltipsMixin",
         "entities.wild.AMTFCAlligatorSnappingTurtleMixin",
+        "entities.wild.AMTFCAnacondaMixin",
         "entities.wild.AMTFCMooseMixin",
         "items.AMTFCItemRegistryMixin"
     ],
