@@ -1,7 +1,6 @@
-package com.momo.alexsmobs_tfc.items;
+package com.momo.alexsmobs_tfc.common.items;
 
 import com.momo.alexsmobs_tfc.common.entities.EntityRegistry;
-import com.momo.alexsmobs_tfc.common.items.TranslatedSpawnEgg;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.Item;
