@@ -18,7 +18,7 @@ public class AMTFCEntityTooltipsMixin {
 
     @Inject(method = "register", at = @At("HEAD"))
     private static void register(RegisterCallback<EntityTooltip, net.minecraft.world.entity.Entity> registry, CallbackInfo ci) {
-        registry.register("amtfc_wild_animal", AMTFC_WILD_ANIMAL, EntityMoose.class);
+        registry.register("moose", AMTFC_WILD_ANIMAL, EntityMoose.class);
     }
 
     @Unique
