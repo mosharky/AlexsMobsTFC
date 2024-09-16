@@ -5,7 +5,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 
-public class AMTFCTags {
+public class TagRegistry {
 
     public static class Items {
         // public static final TagKey<Item> MOOSE_FOOD = create("moose_foods");

@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 // this didn't need to be a mixin at all but im lazy
 @Mixin(EntityTooltips.class)
-public class JadeEntityTooltips {
+public class AMTFCEntityTooltipsMixin {
 
     @Inject(method = "register", at = @At("HEAD"))
     private static void register(RegisterCallback<EntityTooltip, net.minecraft.world.entity.Entity> registry, CallbackInfo ci) {

@@ -18,11 +18,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class AMTFCFaunas
+public class FaunaRegistry
 {
     // Land animals
     // public static final FaunaType<EntityAnteater> ANTEATER = registerAnimal(AMEntityRegistry.ANTEATER);
-    public static final FaunaType<AMTFCEntityMoose> MOOSE = registerAnimal(AMTFCEntities.MOOSE);
+    public static final FaunaType<AMTFCEntityMoose> MOOSE = registerAnimal(EntityRegistry.MOOSE);
     // Fish
     // public static final FaunaType<EntityBlobfish> BLOBFISH = registerFish(AMEntityRegistry.BLOBFISH);
     // Amphibian

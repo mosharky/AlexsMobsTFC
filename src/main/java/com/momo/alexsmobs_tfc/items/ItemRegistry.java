@@ -1,7 +1,7 @@
 package com.momo.alexsmobs_tfc.items;
 
-import com.momo.alexsmobs_tfc.common.entities.AMTFCEntities;
-import com.momo.alexsmobs_tfc.common.items.EasySpawnEgg;
+import com.momo.alexsmobs_tfc.common.entities.EntityRegistry;
+import com.momo.alexsmobs_tfc.common.items.TranslatedSpawnEgg;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.Item;
@@ -12,7 +12,7 @@ import java.util.function.Supplier;
 
 import static com.momo.alexsmobs_tfc.AlexsMobsTFC.MODID;
 
-public class AMTFCItemRegistry {
+public class ItemRegistry {
 
     public static final DeferredRegister<Item> DEF_REG = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
 
@@ -21,7 +21,7 @@ public class AMTFCItemRegistry {
     }
 
     public static void registerEgg(String entityName, Supplier<? extends EntityType<? extends Mob>> type, int backgroundColor, int highlightColor) {
-        DEF_REG.register("spawn_egg_" + entityName, () -> new EasySpawnEgg(type, backgroundColor, highlightColor, new Item.Properties()));
+        DEF_REG.register("spawn_egg_" + entityName, () -> new TranslatedSpawnEgg(type, backgroundColor, highlightColor, new Item.Properties()));
     }
 
     public static void initSpawnEggs() {
@@ -77,7 +77,7 @@ public class AMTFCItemRegistry {
         // registerEgg("mantis_shrimp", AMTFCEntityRegistry.MANTIS_SHRIMP, 0XDB4858,0X15991E)
         // registerEgg("mimic_octopus", AMTFCEntityRegistry.MIMIC_OCTOPUS, 0XFFEBDC,0X1D1C1F)
         // registerEgg("mimicube", AMTFCEntityRegistry.MIMICUBE, 0X8A80C1,0X5E4F6F)
-        registerEgg("moose", AMTFCEntities.MOOSE, 0X36302A,0XD4B183);
+        registerEgg("moose", EntityRegistry.MOOSE, 0X36302A,0XD4B183);
         // registerEgg("mudskipper", AMTFCEntityRegistry.MUDSKIPPER, 0X60704A, 0X49806C)
         // registerEgg("mungus", AMTFCEntityRegistry.MUNGUS, 0X836A8D,0X45454C)
         // registerEgg("murmur", AMTFCEntityRegistry.MURMUR, 0X804448, 0XB5AF9C)

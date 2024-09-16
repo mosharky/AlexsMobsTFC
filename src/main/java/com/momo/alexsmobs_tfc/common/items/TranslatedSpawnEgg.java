@@ -8,9 +8,9 @@ import org.jetbrains.annotations.NotNull;
 import java.util.function.Supplier;
 
 // Made this to use Alex's Mobs translations instead of our own
-public class EasySpawnEgg extends ForgeSpawnEggItem {
+public class TranslatedSpawnEgg extends ForgeSpawnEggItem {
 
-    public EasySpawnEgg(Supplier<? extends EntityType<? extends Mob>> type, int backgroundColor, int highlightColor, Properties props) {
+    public TranslatedSpawnEgg(Supplier<? extends EntityType<? extends Mob>> type, int backgroundColor, int highlightColor, Properties props) {
         super(type, backgroundColor, highlightColor, props);
     }
 

@@ -2,7 +2,7 @@ package com.momo.alexsmobs_tfc.common.entities.wild;
 
 import com.github.alexthe666.alexsmobs.entity.EntityMoose;
 import com.github.alexthe666.alexsmobs.entity.ai.AnimalAIWanderRanged;
-import com.momo.alexsmobs_tfc.common.entities.AMTFCEntities;
+import com.momo.alexsmobs_tfc.common.entities.EntityRegistry;
 import com.momo.alexsmobs_tfc.common.entities.WildAnimalData;
 import com.momo.alexsmobs_tfc.common.entities.ai.AMTFCMooseAIJostle;
 import net.minecraft.nbt.CompoundTag;
@@ -70,7 +70,7 @@ public class AMTFCEntityMoose extends EntityMoose implements IWildAnimal {
     // Override for babies to be this class
     @Override
     public AgeableMob getBreedOffspring(ServerLevel level, AgeableMob mob) {
-        return (AgeableMob) ((EntityType<?>) AMTFCEntities.MOOSE.get()).create(level);
+        return (AgeableMob) ((EntityType<?>) EntityRegistry.MOOSE.get()).create(level);
     }
 
 

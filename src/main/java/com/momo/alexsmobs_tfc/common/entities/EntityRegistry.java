@@ -11,7 +11,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import static com.momo.alexsmobs_tfc.AlexsMobsTFC.MODID;
 
-public class AMTFCEntities {
+public class EntityRegistry {
     public static final DeferredRegister<EntityType<?>> DEF_REG = DeferredRegister.create(Registries.ENTITY_TYPE, MODID);
 
     // Registering Alex's Mobs clones
