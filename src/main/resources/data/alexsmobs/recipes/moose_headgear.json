@@ -1,22 +1,22 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "AIA",
-    "S S"
-  ],
-  "key": {
-    "A": {
-      "item": "alexsmobs:moose_antler"
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "AIA",
+        "S S"
+    ],
+    "key": {
+        "A": {
+            "item": "alexsmobs:moose_antler"
+        },
+        "I": {
+            "item": "minecraft:leather"
+        },
+        "S": {
+            "item": "tfc:wool_yarn"
+        }
     },
-    "I": {
-      "item": "minecraft:leather"
-    },
-    "S": {
-      "item": "tfc:wool_yarn"
+    "result": {
+        "item": "alexsmobs:moose_headgear",
+        "count": 1
     }
-  },
-  "result": {
-    "item": "alexsmobs:moose_headgear",
-    "count": 1
-  }
 }
