@@ -1,8 +1,6 @@
 package com.momo.alexsmobs_tfc.common.entities;
 
-import com.github.alexthe666.alexsmobs.entity.AMEntityRegistry;
-import com.github.alexthe666.alexsmobs.entity.EntityAlligatorSnappingTurtle;
-import com.github.alexthe666.alexsmobs.entity.EntityMoose;
+import com.github.alexthe666.alexsmobs.entity.*;
 import net.dries007.tfc.common.entities.EntityHelpers;
 import net.dries007.tfc.common.entities.Fauna;
 import net.dries007.tfc.common.entities.aquatic.AquaticMob;
@@ -22,19 +20,63 @@ import java.util.function.Supplier;
 
 public class FaunaRegistry
 {
-    // Land animals
-    // public static final FaunaType<EntityAnteater> ANTEATER = registerAnimal(AMEntityRegistry.ANTEATER);
-    public static final FaunaType<EntityMoose> MOOSE = registerAnimal(AMEntityRegistry.MOOSE);
-    // Fish
-    // public static final FaunaType<EntityBlobfish> BLOBFISH = registerFish(AMEntityRegistry.BLOBFISH);
-    // Amphibian
-    public static final FaunaType<EntityAlligatorSnappingTurtle> ALLIGATOR_SNAPPING_TURTLE = registerAmphibian(AMEntityRegistry.ALLIGATOR_SNAPPING_TURTLE);
-
-
-
     public static void registerSpawnPlacements(SpawnPlacementRegisterEvent event) {
-        registerSpawnPlacement(event, MOOSE);
-        registerSpawnPlacement(event, ALLIGATOR_SNAPPING_TURTLE);
+        // Land animals
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.ANTEATER));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.BALD_EAGLE));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.BANANA_SLUG));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.BISON));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.BLUE_JAY));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.CAPUCHIN_MONKEY));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.CROW));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.ELEPHANT));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.EMU));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.GAZELLE));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.GELADA_MONKEY));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.GORILLA));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.GRIZZLY_BEAR));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.HUMMINGBIRD));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.JERBOA));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.KANGAROO));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.KOMODO_DRAGON));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.MANED_WOLF));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.MOOSE));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.POTOO));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.RACCOON));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.RATTLESNAKE));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.RHINOCEROS));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.ROADRUNNER));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.SEAGULL));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.SHOEBILL));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.SKUNK));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.SNOW_LEOPARD));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.SUGAR_GLIDER));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.TASMANIAN_DEVIL));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.TIGER));
+        registerSpawnPlacement(event, registerAnimal(AMEntityRegistry.TOUCAN));
+        // Fish
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.BLOBFISH));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.CACHALOT_WHALE));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.CATFISH));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.FLYING_FISH));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.FRILLED_SHARK));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.GIANT_SQUID));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.HAMMERHEAD_SHARK));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.LOBSTER));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.MANTIS_SHRIMP));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.MIMIC_OCTOPUS));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.ORCA));
+        registerSpawnPlacement(event, registerFish(AMEntityRegistry.TRIOPS));
+        // Amphibian
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.ALLIGATOR_SNAPPING_TURTLE));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.ANACONDA));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.CAIMAN));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.CROCODILE));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.MUDSKIPPER));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.PLATYPUS));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.RAIN_FROG));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.SEAL));
+        registerSpawnPlacement(event, registerAmphibian(AMEntityRegistry.TERRAPIN));
     }
 
 
