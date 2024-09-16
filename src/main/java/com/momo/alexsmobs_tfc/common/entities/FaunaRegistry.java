@@ -1,5 +1,7 @@
 package com.momo.alexsmobs_tfc.common.entities;
 
+import com.github.alexthe666.alexsmobs.entity.AMEntityRegistry;
+import com.github.alexthe666.alexsmobs.entity.EntityAlligatorSnappingTurtle;
 import com.momo.alexsmobs_tfc.common.entities.wild.AMTFCEntityMoose;
 import net.dries007.tfc.common.entities.EntityHelpers;
 import net.dries007.tfc.common.entities.Fauna;
@@ -26,12 +28,13 @@ public class FaunaRegistry
     // Fish
     // public static final FaunaType<EntityBlobfish> BLOBFISH = registerFish(AMEntityRegistry.BLOBFISH);
     // Amphibian
-    // public static final FaunaType<EntityAlligatorSnappingTurtle> ALLIGATOR_SNAPPING_TURTLE = registerAmphibian(AMEntityRegistry.ALLIGATOR_SNAPPING_TURTLE);
+    public static final FaunaType<EntityAlligatorSnappingTurtle> ALLIGATOR_SNAPPING_TURTLE = registerAmphibian(AMEntityRegistry.ALLIGATOR_SNAPPING_TURTLE);
 
 
 
     public static void registerSpawnPlacements(SpawnPlacementRegisterEvent event) {
         registerSpawnPlacement(event, MOOSE);
+        registerSpawnPlacement(event, ALLIGATOR_SNAPPING_TURTLE);
     }
 
 
