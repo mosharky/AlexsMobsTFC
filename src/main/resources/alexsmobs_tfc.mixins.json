@@ -4,10 +4,11 @@
     "compatibilityLevel": "JAVA_17",
     "refmap": "${mod_id}.refmap.json",
     "mixins": [
-        "compat.JadeEntityTooltips"
+        "compat.AMTFCEntityTooltipsMixin",
+        "entities.AMTFCAlligatorSnappingTurtle"
     ],
     "client": [
-        "client.ClientProxyMixin"
+        "client.AMTFCClientProxyMixin"
     ],
     "minVersion": "0.8.5"
 }
