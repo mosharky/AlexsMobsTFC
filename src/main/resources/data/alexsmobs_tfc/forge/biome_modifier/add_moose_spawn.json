@@ -24,6 +24,6 @@
         "weight": 1,
         "minCount": 2,
         "maxCount": 5,
-        "type": "alexsmobs_tfc:moose"
+        "type": "alexsmobs:moose"
     }
 }
