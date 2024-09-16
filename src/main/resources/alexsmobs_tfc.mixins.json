@@ -5,7 +5,8 @@
     "refmap": "${mod_id}.refmap.json",
     "mixins": [
         "compat.AMTFCEntityTooltipsMixin",
-        "entities.AMTFCAlligatorSnappingTurtle"
+        "entities.AMTFCAlligatorSnappingTurtle",
+        "items.AMTFCItemRegistryMixin"
     ],
     "client": [
         "client.AMTFCClientProxyMixin"

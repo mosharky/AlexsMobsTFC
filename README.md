@@ -8,3 +8,4 @@
   - Disabled breeding
   - Implemented Genders
     - Only affects Antler rendering and mechanics
+  - Adjusted Antler Headdress attributes & recipe
