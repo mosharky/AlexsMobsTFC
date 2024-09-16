@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:salmon",
+        "tfc:crappie",
+        "tfc:bluegill",
+        "tfc:lake_trout",
+        "tfc:largemouth_bass",
+        "tfc:rainbow_trout",
+        "tfc:smallmouth_bass",
+        "tfc:cod",
+        "tfc:tropical_fish"
+    ]
+}

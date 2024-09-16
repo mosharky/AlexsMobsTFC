@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "tfc:chicken",
+        "tfc:duck",
+        "tfc:quail",
+        "tfc:turkey",
+        "tfc:grouse",
+        "tfc:pheasant",
+        "tfc:peafowl",
+        "tfc:tropical_fish",
+        "tfc:salmon",
+        "tfc:crappie",
+        "tfc:bluegill",
+        "tfc:lake_trout",
+        "tfc:largemouth_bass",
+        "tfc:rainbow_trout",
+        "tfc:smallmouth_bass",
+        "tfc:cod",
+        "tfc:rabbit",
+        "tfc:frog"
+    ]
+}
