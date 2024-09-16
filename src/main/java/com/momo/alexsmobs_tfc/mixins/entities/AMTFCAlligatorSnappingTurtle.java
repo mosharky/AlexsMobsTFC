@@ -39,6 +39,15 @@ public abstract class AMTFCAlligatorSnappingTurtle extends Animal {
 
     /**
      * @author momo
+     * @reason Disable breeding
+     */
+    @Overwrite
+    public boolean isFood(ItemStack stack) {
+        return false;
+    }
+
+    /**
+     * @author momo
      * @reason Needed to change the else block to drop TFC moss instead of vanilla Sea grass
      */
     @Overwrite
