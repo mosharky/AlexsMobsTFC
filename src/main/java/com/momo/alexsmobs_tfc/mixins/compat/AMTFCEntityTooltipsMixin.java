@@ -1,7 +1,7 @@
 package com.momo.alexsmobs_tfc.mixins.compat;
 
-import com.momo.alexsmobs_tfc.common.entities.wild.AMTFCEntityMoose;
-import com.momo.alexsmobs_tfc.common.entities.wild.IWildAnimal;
+import com.github.alexthe666.alexsmobs.entity.EntityMoose;
+import com.momo.alexsmobs_tfc.common.entities.IWildAnimal;
 import net.dries007.tfc.compat.jade.common.EntityTooltip;
 import net.dries007.tfc.compat.jade.common.EntityTooltips;
 import net.dries007.tfc.compat.jade.common.RegisterCallback;
@@ -12,13 +12,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-// this didn't need to be a mixin at all but im lazy
+// this didn't need to be a mixin at all but im lazy and this inject is safe
 @Mixin(EntityTooltips.class)
 public class AMTFCEntityTooltipsMixin {
 
     @Inject(method = "register", at = @At("HEAD"))
     private static void register(RegisterCallback<EntityTooltip, net.minecraft.world.entity.Entity> registry, CallbackInfo ci) {
-        registry.register("amtfc_wild_animal", AMTFC_WILD_ANIMAL, AMTFCEntityMoose.class);
+        registry.register("amtfc_wild_animal", AMTFC_WILD_ANIMAL, EntityMoose.class);
     }
 
     @Unique

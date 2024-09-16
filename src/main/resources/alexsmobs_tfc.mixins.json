@@ -5,11 +5,10 @@
     "refmap": "${mod_id}.refmap.json",
     "mixins": [
         "compat.AMTFCEntityTooltipsMixin",
-        "entities.AMTFCAlligatorSnappingTurtleMixin",
+        "entities.wild.AMTFCAlligatorSnappingTurtleMixin",
+        "entities.wild.AMTFCMooseMixin",
         "items.AMTFCItemRegistryMixin"
     ],
-    "client": [
-        "client.AMTFCClientProxyMixin"
-    ],
+    "client": [],
     "minVersion": "0.8.5"
 }

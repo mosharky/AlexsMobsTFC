@@ -1,6 +1,5 @@
-package com.momo.alexsmobs_tfc.common.entities.wild;
+package com.momo.alexsmobs_tfc.common.entities;
 
-import com.momo.alexsmobs_tfc.common.entities.WildAnimalData;
 import net.dries007.tfc.common.TFCTags;
 import net.dries007.tfc.util.Helpers;
 import net.minecraft.nbt.CompoundTag;

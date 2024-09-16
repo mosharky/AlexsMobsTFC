@@ -1,6 +1,5 @@
 package com.momo.alexsmobs_tfc.common.items;
 
-import com.momo.alexsmobs_tfc.common.entities.EntityRegistry;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.item.Item;
@@ -76,7 +75,7 @@ public class ItemRegistry {
         // registerEgg("mantis_shrimp", AMTFCEntityRegistry.MANTIS_SHRIMP, 0XDB4858,0X15991E)
         // registerEgg("mimic_octopus", AMTFCEntityRegistry.MIMIC_OCTOPUS, 0XFFEBDC,0X1D1C1F)
         // registerEgg("mimicube", AMTFCEntityRegistry.MIMICUBE, 0X8A80C1,0X5E4F6F)
-        registerEgg("moose", EntityRegistry.MOOSE, 0X36302A,0XD4B183);
+        // registerEgg("moose", EntityRegistry.MOOSE, 0X36302A,0XD4B183);
         // registerEgg("mudskipper", AMTFCEntityRegistry.MUDSKIPPER, 0X60704A, 0X49806C)
         // registerEgg("mungus", AMTFCEntityRegistry.MUNGUS, 0X836A8D,0X45454C)
         // registerEgg("murmur", AMTFCEntityRegistry.MURMUR, 0X804448, 0XB5AF9C)

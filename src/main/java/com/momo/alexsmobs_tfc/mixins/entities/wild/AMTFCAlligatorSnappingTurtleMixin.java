@@ -1,4 +1,4 @@
-package com.momo.alexsmobs_tfc.mixins.entities;
+package com.momo.alexsmobs_tfc.mixins.entities.wild;
 
 import com.github.alexthe666.alexsmobs.entity.EntityAlligatorSnappingTurtle;
 import com.github.alexthe666.alexsmobs.item.AMItemRegistry;

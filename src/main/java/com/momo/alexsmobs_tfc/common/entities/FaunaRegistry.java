@@ -2,7 +2,7 @@ package com.momo.alexsmobs_tfc.common.entities;
 
 import com.github.alexthe666.alexsmobs.entity.AMEntityRegistry;
 import com.github.alexthe666.alexsmobs.entity.EntityAlligatorSnappingTurtle;
-import com.momo.alexsmobs_tfc.common.entities.wild.AMTFCEntityMoose;
+import com.github.alexthe666.alexsmobs.entity.EntityMoose;
 import net.dries007.tfc.common.entities.EntityHelpers;
 import net.dries007.tfc.common.entities.Fauna;
 import net.dries007.tfc.common.entities.aquatic.AquaticMob;
@@ -24,7 +24,7 @@ public class FaunaRegistry
 {
     // Land animals
     // public static final FaunaType<EntityAnteater> ANTEATER = registerAnimal(AMEntityRegistry.ANTEATER);
-    public static final FaunaType<AMTFCEntityMoose> MOOSE = registerAnimal(EntityRegistry.MOOSE);
+    public static final FaunaType<EntityMoose> MOOSE = registerAnimal(AMEntityRegistry.MOOSE);
     // Fish
     // public static final FaunaType<EntityBlobfish> BLOBFISH = registerFish(AMEntityRegistry.BLOBFISH);
     // Amphibian
