@@ -1,8 +1,9 @@
 package com.momo.alexsmobs_tfc;
 
 import com.mojang.logging.LogUtils;
-import com.momo.alexsmobs_tfc.entities.AMTFCEntityRegistry;
-import com.momo.alexsmobs_tfc.entities.FaunaRegistry;
+import com.momo.alexsmobs_tfc.config.AMTFCConfig;
+import com.momo.alexsmobs_tfc.common.entities.AMTFCEntities;
+import com.momo.alexsmobs_tfc.common.entities.AMTFCFaunas;
 import com.momo.alexsmobs_tfc.items.AMTFCItemRegistry;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -21,11 +22,13 @@ public class AlexsMobsTFC {
     {
         final IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        bus.addListener(FaunaRegistry::registerSpawnPlacements);
-        bus.addListener(AMTFCEntityRegistry::onEntityAttributeCreation);
+        bus.addListener(AMTFCFaunas::registerSpawnPlacements);
+        bus.addListener(AMTFCEntities::onEntityAttributeCreation);
 
-        AMTFCEntityRegistry.DEF_REG.register(bus);
+        AMTFCEntities.DEF_REG.register(bus);
         AMTFCItemRegistry.DEF_REG.register(bus);
+
+        AMTFCConfig.init();
     }
 
     @SubscribeEvent

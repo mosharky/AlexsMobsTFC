@@ -1,11 +1,13 @@
 {
-  "required": true,
-  "package": "com.momo.alexsmobs_tfc.mixins",
-  "compatibilityLevel": "JAVA_17",
-  "refmap": "${mod_id}.refmap.json",
-  "mixins": [],
-  "client": [
-    "ClientProxyMixin"
-  ],
-  "minVersion": "0.8.5"
+    "required": true,
+    "package": "com.momo.alexsmobs_tfc.mixins",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "${mod_id}.refmap.json",
+    "mixins": [
+        "compat.JadeEntityTooltips"
+    ],
+    "client": [
+        "client.ClientProxyMixin"
+    ],
+    "minVersion": "0.8.5"
 }
