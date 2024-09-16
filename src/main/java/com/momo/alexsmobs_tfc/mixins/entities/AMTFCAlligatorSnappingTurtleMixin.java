@@ -22,9 +22,9 @@ import java.util.Collections;
 
 // Abstract for cleaner @Shadow code
 @Mixin(EntityAlligatorSnappingTurtle.class)
-public abstract class AMTFCAlligatorSnappingTurtle extends Animal {
+public abstract class AMTFCAlligatorSnappingTurtleMixin extends Animal {
 
-    protected AMTFCAlligatorSnappingTurtle(EntityType<? extends Animal> type, Level level) {
+    protected AMTFCAlligatorSnappingTurtleMixin(EntityType<? extends Animal> type, Level level) {
         super(type, level);
     }
 
