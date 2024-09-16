@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+        "alexsmobs:anaconda",
+        "alexsmobs:caiman",
+        "alexsmobs:crocodile",
+        "alexsmobs:grizzly_bear",
+        "alexsmobs:snow_leopard",
+        "alexsmobs:tiger"
+    ]
+}

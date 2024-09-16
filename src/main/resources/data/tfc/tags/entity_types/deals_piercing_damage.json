@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "alexsmobs:crocodile",
+        "alexsmobs:caiman",
+        "alexsmobs:orca",
+        "alexsmobs:cachalot_whale",
+        "alexsmobs:hammerhead_shark",
+        "alexsmobs:moose",
+        "alexsmobs:rattlesnake",
+        "alexsmobs:komodo_dragon",
+        "alexsmobs:shark_tooth_arrow"
+    ]
+}

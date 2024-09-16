@@ -1,7 +1,7 @@
 {
-    "__comment": "all non-player targets of the snow leopard mob.",
     "replace": false,
     "values": [
-        "#tfc:land_prey"
+        "#tfc:land_prey",
+        "#tfc:livestock"
     ]
 }
