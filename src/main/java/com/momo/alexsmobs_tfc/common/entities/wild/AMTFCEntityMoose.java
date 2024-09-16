@@ -37,28 +37,11 @@ public class AMTFCEntityMoose extends EntityMoose implements IWildAnimal {
     }
 
     @Override
-    protected void registerGoals() {
-        this.goalSelector.addGoal(1, new FloatGoal(this));
-        this.goalSelector.addGoal(2, new AMTFCMooseAIJostle(this));
-        this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.1D, true));
-        this.goalSelector.addGoal(5, new AnimalAIWanderRanged(this, 120, 1.0D, 14, 7));
-        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 15.0F));
-        this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-    }
-
-
-    @Override
     @NotNull
     // Replace translation key with alex's mobs translation key
     public Component getTypeName() {
         String replaced =  super.getType().getDescriptionId().replace("alexsmobs_tfc", "alexsmobs");
         return Component.translatable(replaced);
-    }
-
-    // Disable Alex's Mobs breeding
-    @Override
-    public boolean isFood(ItemStack stack) {
-        return IWildAnimal.super.isFood(stack);
     }
 
     // Check if it can be leashed with TFC's tag
@@ -77,6 +60,22 @@ public class AMTFCEntityMoose extends EntityMoose implements IWildAnimal {
     // ⚠️ ------------------------------------------------------ ⚠️
     // ⚠️ Overriding methods from Alex's Mobs after this comment ⚠️
     // ⚠️ ------------------------------------------------------ ⚠️
+
+    // Disable Alex's Mobs breeding
+    @Override
+    public boolean isFood(ItemStack stack) {
+        return false;
+    }
+
+    @Override
+    protected void registerGoals() {
+        this.goalSelector.addGoal(1, new FloatGoal(this));
+        this.goalSelector.addGoal(2, new AMTFCMooseAIJostle(this));
+        this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.1D, true));
+        this.goalSelector.addGoal(5, new AnimalAIWanderRanged(this, 120, 1.0D, 14, 7));
+        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 15.0F));
+        this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+    }
 
     public static AttributeSupplier.Builder bakeAttributes() {
         return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, 40D).add(Attributes.ATTACK_DAMAGE, 7.5D).add(Attributes.MOVEMENT_SPEED, 0.25F).add(Attributes.KNOCKBACK_RESISTANCE, 0.5F);
