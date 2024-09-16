@@ -8,7 +8,7 @@
     "spawners": {
         "weight": 1,
         "minCount": 1,
-        "maxCount": 1,
+        "maxCount": 2,
         "type": "alexsmobs:alligator_snapping_turtle"
     }
 }
