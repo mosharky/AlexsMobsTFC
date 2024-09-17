@@ -1,0 +1,118 @@
+{
+    "type": "minecraft:barter",
+    "pools": [
+        {
+            "rolls": {
+                "min": -4,
+                "max": 1
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                    ],
+                    "name": "tfc:dirt/silt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                    ],
+                    "name": "tfc:dirt/loam"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                    ],
+                    "name": "tfc:dirt/sandy_loam"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                    ],
+                    "name": "tfc:dirt/silty_loam"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                    ],
+                    "name": "tfc:rooted_dirt/silt"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                    ],
+                    "name": "tfc:rooted_dirt/loam"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                    ],
+                    "name": "tfc:rooted_dirt/sandy_loam"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                    ],
+                    "name": "tfc:rooted_dirt/silty_loam"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                    ],
+                    "name": "alexsmobs:leafcutter_ant_pupa"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "functions": [
+                    ],
+                    "name": "minecraft:hanging_roots"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "functions": [
+                    ],
+                    "name": "alexsmobs:maggot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                    ],
+                    "name": "tfc:seeds/carrot"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                    ],
+                    "name": "tfc:seeds/green_bean"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                    ],
+                    "name": "tfc:seeds/maize"
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "functions": [
+                    ],
+                    "name": "tfc:seeds/melon"
+                }
+            ]
+        }
+    ]
+}
