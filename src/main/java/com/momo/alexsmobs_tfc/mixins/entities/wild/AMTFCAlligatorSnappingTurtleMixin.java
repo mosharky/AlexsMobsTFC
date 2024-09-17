@@ -2,8 +2,10 @@ package com.momo.alexsmobs_tfc.mixins.entities.wild;
 
 import com.github.alexthe666.alexsmobs.entity.EntityAlligatorSnappingTurtle;
 import com.github.alexthe666.alexsmobs.item.AMItemRegistry;
+import net.dries007.tfc.common.TFCTags;
 import net.dries007.tfc.common.blocks.TFCBlocks;
 import net.dries007.tfc.common.blocks.plant.Plant;
+import net.dries007.tfc.util.Helpers;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -36,6 +38,10 @@ public abstract class AMTFCAlligatorSnappingTurtleMixin extends Animal {
     @Shadow
     public abstract void setMoss(int moss);
 
+    @Override
+    public boolean canBeLeashed(Player player) {
+        return Helpers.isEntity(this, TFCTags.Entities.LEASHABLE_WILD_ANIMALS);
+    };
 
     /**
      * @author momo
